@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 const SHOPLINE_ASSET_BASE =
-  "https://lhpackagingmachine.com/cdn/shop/prev/ad1c9cd3e7b07e2c364c985f73188054/1774923603622/assets";
+  "https://lhpackagingmachine.com/cdn/shop/prev/ad1c9cd3e7b07e2c364c985f73188054/1774923603622/assets";https://github.com/sourcingagencychina-jpg/lihong-landing.git
 
 const STYLESHEETS = [
   `${SHOPLINE_ASSET_BASE}/base.css`,
