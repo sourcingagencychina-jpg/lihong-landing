@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://lhpackagingmachine.com/cdn/shop/fonts/Montserrat:300_v26.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://lhpackagingmachine.com/cdn/shop/fonts/Montserrat:regular_v26.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://lhpackagingmachine.com/cdn/shop/fonts/Montserrat:500_v26.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://lhpackagingmachine.com/cdn/shop/fonts/Montserrat:600_v26.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://lhpackagingmachine.com/cdn/shop/fonts/Montserrat:700_v26.woff2")
+    format("woff2");
+}
+
+.all-products-landing {
+  --title-font: "Montserrat", sans-serif;
+  --title-font-weight: 300;
+  --title-font-size: 28px;
+  --title-line-height: 1.2;
+  --body-font: "Montserrat", sans-serif;
+  --body-font-weight: 400;
+  --body-bold-font-weight: 700;
+  --body-font-size: 20px;
+  --body-line-height: 1.6;
+  --color-page-background: 255, 255, 255;
+  --color-text: 0, 0, 0;
+  --color-light-text: 104, 104, 104;
+  --color-button-background: 0, 0, 0;
+  --color-button-text: 255, 255, 255;
+  --color-image-background: 244, 247, 251;
+  --color-image-loading-background: 244, 247, 251;
+  --page-width: 1760px;
+  --section-vertical-gap: 0px;
+  --grid-horizontal-space: 20px;
+  --grid-vertical-space: 20px;
+  --product-card-border-thickness: 0px;
+  --product-card-border-opacity: 10%;
+  --product-card-border-radius: 12px;
+  --product-card-content-align: center;
+
+  margin: 0;
+  min-height: 100%;
+  font-family: var(--body-font);
+  background-color: rgb(var(--color-page-background));
+  color: rgb(var(--color-text));
+}
+
+.all-products-landing a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.all-products-landing ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.all-products-landing #shopline-section-main-collection-product-list .price {
+  display: none !important;
+}
+
+.all-products-landing .main-collection-container {
+  display: block !important;
+}
+
+.all-products-landing .product-list-container {
+  width: 100% !important;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.all-products-landing #shopline-section-main-collection-product-list.section-padding {
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 959px) {
+  .all-products-landing
+    #shopline-section-main-collection-product-list.section-padding {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+}
+
+.all-products-landing .header__heading-logo {
+  display: block;
+  max-width: 220px;
+  height: auto;
+  padding: 12px 0;
+}
+
+.all-products-landing .header__logo-text {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 16px 0;
+  text-decoration: none;
+}
+
+.all-products-landing .logo-lihong {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 4px;
+  color: #000;
+  line-height: 1;
+}
+
+.all-products-landing .logo-divider {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  color: #999;
+  line-height: 1;
+}
+
+.all-products-landing .logo-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #666;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.all-products-landing .header__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-left: 0;
+}

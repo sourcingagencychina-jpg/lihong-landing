@@ -1,0 +1,85 @@
+/* 主题变量与布局覆盖（作用域在 .products-landing-root 内） */
+.products-landing-root {
+  --title-font: var(--font-montserrat, "Montserrat", sans-serif);
+  --title-font-weight: 300;
+  --title-font-size: 28px;
+  --title-line-height: 1.2;
+  --body-font: var(--font-montserrat, "Montserrat", sans-serif);
+  --body-font-weight: 400;
+  --body-bold-font-weight: 700;
+  --body-font-size: 20px;
+  --body-line-height: 1.6;
+  --color-page-background: 255, 255, 255;
+  --color-text: 0, 0, 0;
+  --color-light-text: 104, 104, 104;
+  --color-button-background: 0, 0, 0;
+  --color-button-text: 255, 255, 255;
+  --color-image-background: 244, 247, 251;
+  --color-image-loading-background: 244, 247, 251;
+  --page-width: 1760px;
+  --section-vertical-gap: 0px;
+  --grid-horizontal-space: 20px;
+  --grid-vertical-space: 20px;
+  --product-card-border-thickness: 0px;
+  --product-card-border-opacity: 10%;
+  --product-card-border-radius: 12px;
+  --product-card-content-align: center;
+
+  margin: 0;
+  min-height: 100%;
+  background-color: rgb(var(--color-page-background));
+  color: rgb(var(--color-text));
+}
+
+.products-landing-root a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.products-landing-root ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.products-landing-root #shopline-section-main-collection-product-list .price {
+  display: none !important;
+}
+
+.products-landing-root .main-collection-container {
+  display: block !important;
+}
+
+.products-landing-root .product-list-container {
+  width: 100% !important;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.products-landing-root #shopline-section-main-collection-product-list.section-padding {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 959px) {
+  .products-landing-root
+    #shopline-section-main-collection-product-list.section-padding {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+}
+
+.products-landing-root .header__heading-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 220px;
+  height: auto;
+  padding: 20px 0;
+}
+
+.products-landing-root .header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
